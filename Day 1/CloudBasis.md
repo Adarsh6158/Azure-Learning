@@ -40,8 +40,6 @@ In a **public cloud**, the cloud provider **owns and manages the infrastructure*
 - AWS  
 - Google Cloud  
 
----
-
 ## Private Cloud
 A **private cloud** is used by **only one organization**.
 
@@ -50,7 +48,6 @@ The infrastructure can be:
 - Inside the company’s **data center**
 - Hosted by a provider but **dedicated to that company**
 
----
 
 ## Hybrid Cloud
 A **hybrid cloud** is a **combination of public cloud and private cloud**.
@@ -70,16 +67,18 @@ Companies keep **sensitive data in the private cloud** and use the **public clou
 **Virtualization** is the process of creating **multiple virtual machines** from a **single physical server**.
 
 It allows **better utilization of hardware resources** and enables **multiple operating systems** to run on the **same hardware**.
+<img width="900" height="450" alt="image" src="https://github.com/user-attachments/assets/47f28e36-6524-4623-810d-1048eef64a75" />
 
----
+
 
 ## Virtual Machine
 
 A **Virtual Machine (VM)** is a **software-based computer** that runs on a **physical machine**.
 
 It has its own **operating system**, **CPU**, **memory**, and **storage** just like a **real computer**.
+<img width="706" height="443" alt="image" src="https://github.com/user-attachments/assets/2aaca0be-efb4-4c64-b323-d4060bcd48ce" />
 
----
+
 
 ## API (Application Programming Interface)
 
@@ -87,29 +86,26 @@ It has its own **operating system**, **CPU**, **memory**, and **storage** just l
 
 It is a **set of rules and protocols** that allow **different software applications** to **communicate with each other**.
 
----
 
 ## Regions
 
 A **region** is a **geographical area** that contains **one or more data centers** where **cloud services are hosted**.
 
 Cloud providers create **multiple regions across the world** to provide **better performance and reliability**.
+<img width="1000" height="475" alt="image" src="https://github.com/user-attachments/assets/116a9edc-1ab9-430b-a36c-f8aa7d4b917e" />
 
----
 
 ## Availability Zones
 
 **Availability Zones** are **physically separate data centers** within a **region**.
 
 They provide **redundancy** and help ensure **applications remain available** even if **one data center fails**.
+Deploy copies of app in different AZs and load balancer splits between the copies
 
----
 
 ## Scalability
 
 **Scalability** is the ability of a **system** to **handle increased workload** by adding more resources such as **servers**, **storage**, or **processing power**.
-
----
 
 ## Elasticity
 
@@ -117,7 +113,6 @@ They provide **redundancy** and help ensure **applications remain available** ev
 
 This helps **optimize cost and performance**.
 
----
 
 ## Agility
 
@@ -125,7 +120,6 @@ This helps **optimize cost and performance**.
 
 Cloud platforms allow developers to **provision infrastructure within minutes**.
 
----
 
 ## High Availability
 
@@ -133,7 +127,6 @@ Cloud platforms allow developers to **provision infrastructure within minutes**.
 
 It is achieved using **redundancy** and **distributed infrastructure**.
 
----
 
 ## Fault Tolerance
 
@@ -141,16 +134,23 @@ It is achieved using **redundancy** and **distributed infrastructure**.
 
 It ensures **minimal disruption to services**.
 
----
 
 ## Disaster Recovery
 
 **Disaster recovery** is the process of **restoring systems, applications, and data** after **major failures** such as **natural disasters**, **cyber attacks**, or **data center outages**.
 
----
 
 ## Load Balancing
 
 **Load balancing** is the process of **distributing incoming network traffic** across **multiple servers**.
 
 It **improves performance**, **prevents server overload**, and **increases application reliability**.
+<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/f5b0a8f4-1a89-4257-ba81-6b7bd0af622f" />
+
+## Multi-Region Deployment
+
+Applications can be deployed in **multiple regions** to improve:
+
+- Availability
+- Disaster recovery
+- Performance for global users
